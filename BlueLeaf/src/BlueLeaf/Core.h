@@ -5,7 +5,7 @@
 		#define BLUELEAF_API __declspec(dllexport)
 	#else
 		#define BLUELEAF_API __declspec(dllimport)
-	#endif // HZ_BUILD_DLL
+	#endif // BL_BUILD_DLL
 	#else
 		#error BlueLeaf only supports Windows!
 #endif

@@ -1,5 +1,4 @@
 #pragma once
-
 #ifdef BL_PLATFORM_WINDOWS
 
 extern BlueLeaf::Application* BlueLeaf::CreateApplication();
